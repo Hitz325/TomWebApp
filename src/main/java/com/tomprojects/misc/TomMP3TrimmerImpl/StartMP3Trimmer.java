@@ -6,14 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @SpringBootApplication()
-public class TomMp3TrimmerImplApplication {
+public class StartMP3Trimmer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TomMp3TrimmerImplApplication.class, args);
+		SpringApplication.run(StartMP3Trimmer.class, args);
 	}
-	@GetMapping("/")
-    public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-      return String.format("Hello %s!", name);
-    }
 
 }
