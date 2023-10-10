@@ -1,13 +1,13 @@
-package com.tomprojects.misc.TomMP3TrimmerImpl;
+package com.tomprojects.misc.TomWebApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication()
-public class StartMP3Trimmer {
+public class StartTomWebApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StartMP3Trimmer.class, args);
+		SpringApplication.run(StartTomWebApp.class, args);
 	}
 
 }

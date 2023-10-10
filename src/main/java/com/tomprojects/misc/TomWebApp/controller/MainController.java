@@ -1,4 +1,4 @@
-package com.tomprojects.misc.TomMP3TrimmerImpl.controller;
+package com.tomprojects.misc.TomWebApp.controller;
 
 import java.util.Arrays;
 import java.util.List;
