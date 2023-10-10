@@ -1,0 +1,18 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+  thymeleaf:
+    cache: false
+
+security:
+  basic:
+    enabled: false
+
+welcome:
+  message: Tom
