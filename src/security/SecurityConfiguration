@@ -1,0 +1,20 @@
+// // // @Configuration
+// // // @EnableWebSecurity
+// // // public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
+
+// // //     @Override
+// // //     protected void configure(HttpSecurity security) throws Exception
+// // //     {
+// // //      security.httpBasic().disable();
+// // //      security.formLogin().disable();
+// // //     }
+// // // }
+// import com.SpringApplication.SecurityConfiguration; 
+// @Configuration
+// @EnableWebFluxSecurity
+// public class SecurityConfiguration {
+//    @Bean
+//     public SecurityWebFilterChain filterChain(ServerHttpSecurity http) {
+//     return http.httpBasic().disable().formLogin.disable().build();
+// }
+// }
