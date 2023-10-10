@@ -1,4 +1,4 @@
-package com.tomprojects.misc.TomMP3TrimmerImpl;
+package com.tomprojects.misc.TomWebApp;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.core.StringContains.containsString;
@@ -8,7 +8,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
-import com.tomprojects.misc.TomMP3TrimmerImpl.controller.MainController;
+import com.tomprojects.misc.TomWebApp.controller.MainController;
 import java.util.Arrays;
 import java.util.List;
 import org.junit.jupiter.api.Test;
